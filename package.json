@@ -13,7 +13,7 @@
     "sta": "systemctl stop apache2.service",
     "enable-ha": "heroku features:enable http-session-affinity",
     "hd": "git push heroku master",
-    "push": "git push && npm run enable-ha && npm run hd",
+    "push": "git push && npm run hd",
     "heroku-postbuild": ""
   },
   "keywords": [
