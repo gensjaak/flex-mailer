@@ -1,0 +1,36 @@
+{
+  "name": "flex-mailer",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.4.0",
+    "npm": "6.0.1"
+  },
+  "description": "Flexible mail API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sl": "nodemon server.js",
+    "sta": "systemctl stop apache2.service",
+    "enable-ha": "heroku features:enable http-session-affinity",
+    "hd": "git push heroku master",
+    "push": "git push && npm run hd",
+    "heroku-postbuild": ""
+  },
+  "keywords": [
+    "api",
+    "mail",
+    "email",
+    "online",
+    "free",
+    "flexible"
+  ],
+  "author": "Jean-jacques AKAKPO <akakpo.jeanjacques@gmail.com>",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemailer": "^4.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
