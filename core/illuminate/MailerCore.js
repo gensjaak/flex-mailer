@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer')
 class MailerCore {
 
   constructor () {
-    this.password = `)l&uvqW(t~_te}p{ee---/*504413`
+    this.password = `)__)(*&vqW(t~_te}p{ee---/*85774`
     this.email = `suo.customer@gmail.com`
     this.from = `Your customer <suo.customer@gmail.com>`
     this.defaults = null
