@@ -28,7 +28,7 @@
   "license": "GPL",
   "dependencies": {
     "express": "^4.16.2",
-    "nodemailer": "^4.6.4"
+    "nodemailer": "^6.4.16"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
